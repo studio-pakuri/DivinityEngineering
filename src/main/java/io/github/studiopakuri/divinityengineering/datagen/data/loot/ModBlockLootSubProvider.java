@@ -1,4 +1,4 @@
-package io.github.studiopakuri.divinityengineering.datagen.client.data.loot;
+package io.github.studiopakuri.divinityengineering.datagen.data.loot;
 
 import io.github.studiopakuri.divinityengineering.registry.ModBlocks;
 import net.minecraft.core.HolderLookup;

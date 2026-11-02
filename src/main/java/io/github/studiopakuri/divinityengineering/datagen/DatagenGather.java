@@ -1,10 +1,10 @@
 package io.github.studiopakuri.divinityengineering.datagen;
 
 import io.github.studiopakuri.divinityengineering.DivinityEngineering;
-import io.github.studiopakuri.divinityengineering.datagen.client.data.loot.ModBlockLootSubProvider;
-import io.github.studiopakuri.divinityengineering.datagen.client.data.recipe.ModRecipeProvider;
-import io.github.studiopakuri.divinityengineering.datagen.client.data.tags.ModBlockTagsProvider;
-import io.github.studiopakuri.divinityengineering.datagen.client.data.tags.ModItemTagsProvider;
+import io.github.studiopakuri.divinityengineering.datagen.data.loot.ModBlockLootSubProvider;
+import io.github.studiopakuri.divinityengineering.datagen.data.recipe.ModRecipeProvider;
+import io.github.studiopakuri.divinityengineering.datagen.data.tags.ModBlockTagsProvider;
+import io.github.studiopakuri.divinityengineering.datagen.data.tags.ModItemTagsProvider;
 import io.github.studiopakuri.divinityengineering.datagen.client.lang.EnglishProvider;
 import io.github.studiopakuri.divinityengineering.datagen.client.lang.JapaneseProvider;
 import io.github.studiopakuri.divinityengineering.datagen.client.model.ModModelProvider;

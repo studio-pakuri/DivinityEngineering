@@ -1,4 +1,4 @@
-package io.github.studiopakuri.divinityengineering.datagen.client.data.tags;
+package io.github.studiopakuri.divinityengineering.datagen.data.tags;
 
 import io.github.studiopakuri.divinityengineering.DivinityEngineering;
 import io.github.studiopakuri.divinityengineering.api.tags.CommonDivinityEngineeringTags;

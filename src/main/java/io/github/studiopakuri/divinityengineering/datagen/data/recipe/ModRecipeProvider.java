@@ -1,4 +1,4 @@
-package io.github.studiopakuri.divinityengineering.datagen.client.data.recipe;
+package io.github.studiopakuri.divinityengineering.datagen.data.recipe;
 
 import io.github.studiopakuri.divinityengineering.DivinityEngineering;
 import io.github.studiopakuri.divinityengineering.api.tags.CommonDivinityEngineeringTags;
