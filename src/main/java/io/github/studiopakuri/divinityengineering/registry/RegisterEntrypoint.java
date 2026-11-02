@@ -8,5 +8,6 @@ import net.neoforged.fml.common.Mod;
 public class RegisterEntrypoint {
     public RegisterEntrypoint(IEventBus modEventBus){
         ModItems.REGISTER.register(modEventBus);
+        ModBlocks.REGISTER.register(modEventBus);
     }
 }

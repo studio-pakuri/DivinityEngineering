@@ -1,6 +1,7 @@
 package io.github.studiopakuri.divinityengineering.datagen.client.model;
 
 import io.github.studiopakuri.divinityengineering.DivinityEngineering;
+import io.github.studiopakuri.divinityengineering.registry.ModBlocks;
 import io.github.studiopakuri.divinityengineering.registry.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -17,5 +18,7 @@ public class ModModelProvider extends ModelProvider {
     @Override
     protected void registerModels(@NonNull BlockModelGenerators blockModels, @NonNull ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(ModItems.CRYSTALLIZED_ETHER.get(), ModelTemplates.FLAT_ITEM);
+
+        blockModels.createTrivialCube(ModBlocks.CRYSTALLIZED_ETHER_BLOCK.get());
     }
 }

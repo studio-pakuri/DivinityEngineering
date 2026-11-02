@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": "divinityengineering:crystallized_ether",
+    "T": "#c:crystallized_ether"
+  },
+  "pattern": [
+    "TTT",
+    "TIT",
+    "TTT"
+  ],
+  "result": {
+    "id": "divinityengineering:crystallized_ether_block"
+  }
+}
