@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      "divinityengineering:ether_containing_stone_surface",
+      "divinityengineering:ether_containing_stone_deep"
+    ]
+  }
+}

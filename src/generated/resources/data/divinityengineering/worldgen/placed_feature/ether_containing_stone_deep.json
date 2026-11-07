@@ -1,0 +1,20 @@
+{
+  "feature": "divinityengineering:ether_containing_stone",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "above_bottom": 20
+        },
+        "min_inclusive": {
+          "above_bottom": 5
+        }
+      }
+    }
+  ]
+}
