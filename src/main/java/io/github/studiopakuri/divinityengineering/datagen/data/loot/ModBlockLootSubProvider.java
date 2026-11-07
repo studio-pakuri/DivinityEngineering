@@ -1,6 +1,7 @@
 package io.github.studiopakuri.divinityengineering.datagen.data.loot;
 
 import io.github.studiopakuri.divinityengineering.registry.ModBlocks;
+import io.github.studiopakuri.divinityengineering.registry.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
@@ -25,5 +26,9 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.CRYSTALLIZED_ETHER_BLOCK.get());
+        add(
+            ModBlocks.ETHER_CONTAINING_STONE.get(),
+            createOreDrop(ModBlocks.ETHER_CONTAINING_STONE.get(), ModItems.IMPURE_ETHER_DUST.get())
+        );
     }
 }

@@ -14,5 +14,11 @@ public final class ModItems {
     public static final DeferredItem<BlockItem> CRYSTALLIZED_ETHER_BLOCK = REGISTER.registerSimpleBlockItem(
         ModBlocks.CRYSTALLIZED_ETHER_BLOCK
     );
+    public static final DeferredItem<Item> IMPURE_ETHER_DUST = REGISTER.registerSimpleItem(
+        "impure_ether_dust"
+    );
+    public static final DeferredItem<BlockItem> ETHER_CONTAINING_STONE = REGISTER.registerSimpleBlockItem(
+        ModBlocks.ETHER_CONTAINING_STONE
+    );
     private ModItems(){}
 }

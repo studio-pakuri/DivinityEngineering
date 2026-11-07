@@ -18,7 +18,9 @@ public class ModModelProvider extends ModelProvider {
     @Override
     protected void registerModels(@NonNull BlockModelGenerators blockModels, @NonNull ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(ModItems.CRYSTALLIZED_ETHER.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.IMPURE_ETHER_DUST.get(), ModelTemplates.FLAT_ITEM);
 
         blockModels.createTrivialCube(ModBlocks.CRYSTALLIZED_ETHER_BLOCK.get());
+        blockModels.createTrivialCube(ModBlocks.ETHER_CONTAINING_STONE.get());
     }
 }

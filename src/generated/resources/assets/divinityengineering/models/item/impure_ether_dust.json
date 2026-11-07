@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "divinityengineering:item/impure_ether_dust"
+  }
+}

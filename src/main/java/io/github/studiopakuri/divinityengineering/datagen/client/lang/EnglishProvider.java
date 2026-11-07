@@ -14,6 +14,8 @@ public class EnglishProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
         addItem(ModItems.CRYSTALLIZED_ETHER, "Crystallized Ether");
+        addItem(ModItems.IMPURE_ETHER_DUST, "Impure Ether Dust");
         addBlock(ModBlocks.CRYSTALLIZED_ETHER_BLOCK, "Crystallized Ether Block");
+        addBlock(ModBlocks.ETHER_CONTAINING_STONE, "Ether Containing Stone");
     }
 }

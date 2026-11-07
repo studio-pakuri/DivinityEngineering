@@ -14,6 +14,8 @@ public class JapaneseProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
         addItem(ModItems.CRYSTALLIZED_ETHER, "結晶化エーテル");
+        addItem(ModItems.IMPURE_ETHER_DUST, "不純なエーテルダスト");
         addBlock(ModBlocks.CRYSTALLIZED_ETHER_BLOCK, "結晶化エーテルブロック");
+        addBlock(ModBlocks.ETHER_CONTAINING_STONE, "エーテル含有石");
     }
 }

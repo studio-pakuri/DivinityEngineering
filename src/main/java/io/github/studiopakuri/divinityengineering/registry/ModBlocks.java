@@ -17,5 +17,12 @@ public final class ModBlocks {
             .requiresCorrectToolForDrops()
             .sound(SoundType.METAL)
     );
+    public static final DeferredBlock<Block> ETHER_CONTAINING_STONE = REGISTER.registerSimpleBlock(
+        "ether_containing_stone",
+        properties -> properties
+            .strength(3)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE)
+    );
     private ModBlocks(){}
 }

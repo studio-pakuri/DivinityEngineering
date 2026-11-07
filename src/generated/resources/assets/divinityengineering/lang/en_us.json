@@ -1,4 +1,6 @@
 {
   "block.divinityengineering.crystallized_ether_block": "Crystallized Ether Block",
-  "item.divinityengineering.crystallized_ether": "Crystallized Ether"
+  "block.divinityengineering.ether_containing_stone": "Ether Containing Stone",
+  "item.divinityengineering.crystallized_ether": "Crystallized Ether",
+  "item.divinityengineering.impure_ether_dust": "Impure Ether Dust"
 }

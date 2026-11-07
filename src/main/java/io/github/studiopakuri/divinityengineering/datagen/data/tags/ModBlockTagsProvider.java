@@ -19,9 +19,15 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.@NonNull Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-            .add(ModBlocks.CRYSTALLIZED_ETHER_BLOCK.get());
+            .add(
+                ModBlocks.CRYSTALLIZED_ETHER_BLOCK.get(),
+                ModBlocks.ETHER_CONTAINING_STONE.get()
+            );
         tag(BlockTags.INCORRECT_FOR_STONE_TOOL)
-            .add(ModBlocks.CRYSTALLIZED_ETHER_BLOCK.get());
+            .add(
+                ModBlocks.CRYSTALLIZED_ETHER_BLOCK.get(),
+                ModBlocks.ETHER_CONTAINING_STONE.get()
+            );
         tag(CommonDivinityEngineeringTags.Blocks.CRYSTALLIZED_ETHER_BLOCK)
             .add(ModBlocks.CRYSTALLIZED_ETHER_BLOCK.get());
     }

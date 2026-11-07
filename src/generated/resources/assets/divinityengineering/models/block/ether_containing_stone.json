@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "divinityengineering:block/ether_containing_stone"
+  }
+}
