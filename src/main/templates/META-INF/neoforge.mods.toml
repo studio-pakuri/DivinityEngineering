@@ -34,3 +34,9 @@ Example mod description.
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="jei"
+    type="optional"
+    ordering = "AFTER"
+    side="CLIENT"

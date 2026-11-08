@@ -19,6 +19,11 @@ sourceSets.main.resources {
 }
 
 repositories {
+    maven {
+        // location of the maven that hosts JEI files since January 2023
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
 }
 
 base {
@@ -71,6 +76,8 @@ configurations {
 }
 
 dependencies {
+    compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
+    localRuntime("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
@@ -81,7 +88,7 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_id                 : mod_id,
             mod_name               : mod_name,
             mod_license            : mod_license,
-            mod_version            : mod_version,
+            mod_version            : mod_version
     ]
     inputs.properties replaceProperties
     expand replaceProperties

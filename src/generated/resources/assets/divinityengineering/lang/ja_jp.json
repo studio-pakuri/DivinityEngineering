@@ -2,5 +2,6 @@
   "block.divinityengineering.crystallized_ether_block": "結晶化エーテルブロック",
   "block.divinityengineering.ether_containing_stone": "エーテル含有石",
   "item.divinityengineering.crystallized_ether": "結晶化エーテル",
-  "item.divinityengineering.impure_ether_dust": "不純なエーテルダスト"
+  "item.divinityengineering.impure_ether_dust": "不純なエーテルダスト",
+  "item.divinityengineering.impure_ether_dust.information": "水の入った大釜で洗浄できます。"
 }

@@ -1,6 +1,7 @@
 package io.github.studiopakuri.divinityengineering.datagen.client.lang;
 
 import io.github.studiopakuri.divinityengineering.DivinityEngineering;
+import io.github.studiopakuri.divinityengineering.api.lang.ItemInformationTranslationKeys;
 import io.github.studiopakuri.divinityengineering.registry.ModBlocks;
 import io.github.studiopakuri.divinityengineering.registry.ModItems;
 import net.minecraft.data.PackOutput;
@@ -17,5 +18,6 @@ public class JapaneseProvider extends LanguageProvider {
         addItem(ModItems.IMPURE_ETHER_DUST, "不純なエーテルダスト");
         addBlock(ModBlocks.CRYSTALLIZED_ETHER_BLOCK, "結晶化エーテルブロック");
         addBlock(ModBlocks.ETHER_CONTAINING_STONE, "エーテル含有石");
+        add(ItemInformationTranslationKeys.IMPURE_ETHER_DUST, "水の入った大釜で洗浄できます。");
     }
 }
