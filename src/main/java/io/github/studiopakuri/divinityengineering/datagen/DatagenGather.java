@@ -5,6 +5,7 @@ import io.github.studiopakuri.divinityengineering.datagen.client.lang.EnglishPro
 import io.github.studiopakuri.divinityengineering.datagen.client.lang.JapaneseProvider;
 import io.github.studiopakuri.divinityengineering.datagen.client.model.ModModelProvider;
 import io.github.studiopakuri.divinityengineering.datagen.data.loot.ModBlockLootSubProvider;
+import io.github.studiopakuri.divinityengineering.datagen.data.loot.ModGameplayLootTableSubProvider;
 import io.github.studiopakuri.divinityengineering.datagen.data.recipe.ModRecipeProvider;
 import io.github.studiopakuri.divinityengineering.datagen.data.tags.ModBlockTagsProvider;
 import io.github.studiopakuri.divinityengineering.datagen.data.tags.ModItemTagsProvider;
@@ -14,7 +15,6 @@ import io.github.studiopakuri.divinityengineering.datagen.data.worldgen.feature.
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.loot.LootTableProvider;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -43,6 +43,10 @@ public final class DatagenGather {
                 new LootTableProvider.SubProviderEntry(
                     ModBlockLootSubProvider::new,
                     LootContextParamSets.BLOCK
+                ),
+                new LootTableProvider.SubProviderEntry(
+                    ModGameplayLootTableSubProvider::new,
+                    LootContextParamSets.EMPTY
                 )
             ),
             lookupProvider
